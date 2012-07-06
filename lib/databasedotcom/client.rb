@@ -444,7 +444,7 @@ module Databasedotcom
 
         # Field not found
         if field == nil
-          break
+          next
         end
 
         # If reference/lookup field data was fetched, recursively build the child record and apply
